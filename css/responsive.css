@@ -1,0 +1,66 @@
+@media only screen and (max-width:1080px){
+    .navList{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 400px;
+        transition: all 1s ease-in-out;
+    }
+    #search{
+        width: 94%;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 60px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .navList li{
+        padding: 10px;
+    }
+    .logo{
+        width: 15%;
+        margin: 0;
+    }
+    .logo img{
+        margin: auto;
+        display: block;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .secondHalf img{
+        max-width: 50%;
+    }
+    .serviceSection{
+        flex-direction: column-reverse;
+    }
+    .aboutSection{
+        flex-direction: column-reverse;
+        padding: 0 10px 20px;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .buttons .btn{
+        padding: 3px 8px;
+        font-size: 16px;
+    }
+    .paras{
+        padding: 0;
+    }
+}
